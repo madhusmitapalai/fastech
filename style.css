@@ -1,0 +1,256 @@
+@import url("https://fonts.googleapis.com/css2?family=Sigmar+One&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  text-transform: capitalize;
+}
+h1 {
+  font-family: "Sigmar One", cursive;
+}
+.icon {
+  font-size: 1.3rem;
+}
+.buttom {
+  width: 6.5rem;
+  height: 2rem;
+  border-radius: 15rem;
+  padding: 0.2rem 0.4rem;
+}
+nav {
+  position: relative;
+  padding: 0em 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav img.photo {
+  width: 8em;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/*main-color*/
+.main-color {
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.3)),
+    url(https://cdn.pixabay.com/photo/2015/04/19/08/32/marguerite-729510__480.jpg);
+  background-position: center;
+  width: 100vw;
+  overflow: hidden;
+  height: 100vh;
+  color: #fff;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  font-size: 1.4rem;
+  font-weight: 700;
+}
+
+.min {
+  padding-top: 5rem;
+}
+.main-color .waves {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+/*about us*/
+.about .one img {
+  width: 85%;
+  height: 90%;
+}
+.horrizontal {
+  background-color: red;
+  width: 12rem;
+  height: 0.2rem;
+  border-radius: 2rem;
+}
+/*our products*/
+
+.card-products {
+  padding: 1em;
+  width: 250px;
+  height: 270px;
+  display: inline-block;
+  border-radius: 30px;
+  cursor: pointer;
+  margin: 10px 15px;
+  color: #fff;
+  box-shadow: 10px 10px 40px 10px rgba(0, 0, 0, 0.3);
+  position: relative;
+}
+.card1 {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.6)),
+    url(/Beginner/images/home-img-2.png);
+  background-size: cover;
+  box-sizing: border-box;
+  background-repeat: no-repeat;
+  transform: scale(1);
+  transition: 0.5s ease-in-out;
+}
+.card1:hover {
+  transform: scale(1.1);
+}
+.card2 {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)),
+    url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR6JnWE6gAFdjnsktEf1q9r_cDEwwB7zuOKwg&usqp=CAU);
+  background-repeat: no-repeat;
+  box-sizing: border-box;
+  background-size: cover;
+  transform: scale(1);
+  transition: 0.5s ease-in-out;
+}
+.card2:hover {
+  transform: scale(1.1);
+}
+/*services*/
+.servises p {
+  padding-bottom: 1rem;
+}
+.card {
+  border-radius: 15px;
+}
+.three {
+  background-color: #000;
+}
+.four {
+  background-color: rgb(202, 8, 8);
+}
+/*our clinets*/
+.client-card {
+  box-shadow: inset -5px -5px 12px rgb(245, 232, 232),
+    5px 5px 12px rgba(0, 0, 0, 0.16);
+  width: 10px;
+  height: 200px;
+  position: relative;
+  margin: 0 1rem;
+}
+.icon-img img {
+  position: absolute;
+  left: 57px;
+  top: 57px;
+  width: 70px;
+  height: 70px;
+  filter: grayscale(100%);
+  text-align: center;
+  justify-content: center;
+  display: flex;
+}
+.icon-img img:hover {
+  filter: grayscale(0%);
+}
+h1 {
+  padding-bottom: 1.8rem;
+}
+/*gallery*/
+.items:hover {
+  filter: grayscale(60%);
+}
+/*testimonial*/
+.image-text {
+  width: 97%;
+  height: 100%;
+  text-align: center;
+  padding: 60% 5%;
+  background: #262626;
+  color: #fff;
+  border-radius: 15px;
+}
+.image-text h2 {
+  font-size: 25px;
+}
+.image-text p {
+  font-size: 9px;
+}
+.single-box {
+  height: 26rem;
+  position: relative;
+}
+.imag-area {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  border: 2px solid #fff;
+  top: 15px;
+  left: 100px;
+  border-radius: 50%;
+}
+.imag-area img {
+  width: 100%;
+  border-radius: 50%;
+}
+.stars {
+  color: rgb(247, 247, 97);
+}
+/*footer*/
+footer {
+  position: relative;
+  left: 0;
+  right: 0;
+  overflow: hidden;
+}
+.last-contant {
+  background-color: #000;
+  color: #fff;
+  margin-top: -7rem;
+}
+svg .second-wave {
+  position: absolute;
+  left: 0;
+  right: 0;
+}
+
+.logo img {
+  width: 40%;
+}
+/*media quary*/
+@media (min-width: 220px) and (max-width: 560px) {
+  html {
+    margin: 0;
+    padding: 0;
+  }
+  .main-color {
+    height: 70vh;
+  }
+  .main-color h1 {
+    font-size: 1.8rem;
+  }
+
+  .two p {
+    font-size: 12px;
+  }
+  .servises {
+    font-size: 1rem;
+  }
+  .min {
+    padding-top: 5rem;
+    font-size: 15px;
+    position: relative;
+  }
+  .client-card {
+    width: 210px;
+    height: 170px;
+  }
+  .icon-img {
+    position: absolute;
+    left: -1.6rem;
+    top: 0px;
+  }
+}
+@media (min-width: 561.98px) and (max-width: 991px) {
+  .photo {
+    margin-left: 9rem;
+    width: 30%;
+    height: 80%;
+  }
+  .last-contant {
+    margin-top: -2rem;
+  }
+}
