@@ -181,7 +181,7 @@ h1 {
   height: 100px;
   border: 2px solid #fff;
   top: 10px;
-  left: 100px;
+  left: 85px;
   border-radius: 50%;
 }
 .imag-area img {
@@ -273,9 +273,9 @@ svg .second-wave {
   }
   .single-box {
     width: 28rem;
-    height: 80%;
+    height: 100%;
   }
-  .imag-area {
+  /* .imag-area {
     position: absolute;
     top: 0px;
     left: 0px;
@@ -286,12 +286,12 @@ svg .second-wave {
   }
   .image-text {
     width: 97%;
-    height: 90%;
+    height: 100%;
     padding: 60% 6%;
     background: #262626;
     color: #fff;
     border-radius: 15px;
-  }
+  } */
   .last-contant {
     margin-top: -2rem;
   }
@@ -299,13 +299,13 @@ svg .second-wave {
 @media (min-width: 992px) and(max-width:1190px) {
   .image-text {
     width: 97%;
-    height: 92%;
+    height:100vh;
     padding: 50% 4%;
   }
-  .single-box {
+  /* .single-box {
     width: 98%;
-    height: 88%;
-  }
+    height: 100%;
+  } */
   .card-products {
     margin: 5rem 3rem;
   }
